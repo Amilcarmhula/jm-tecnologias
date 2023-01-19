@@ -6,7 +6,9 @@
 }
 
 * {
-  font-family:/* Gabriola,*/'Roboto', sans-serif;
+  font-family:
+    /* Gabriola,*/
+    'Roboto', sans-serif;
   text-transform: capitalize;
   text-decoration: none;
   outline: none;
@@ -43,11 +45,11 @@ header {
   transform-origin: .2s;
 }
 
-.header-active{
+.header-active {
   top: 0;
   width: 100%;
   border-radius: 0;
-  box-shadow: 0 .1rem .3rem rgba(0 ,0, 0, 0.3);
+  box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
 }
 
 header .navbar ul {
@@ -78,10 +80,12 @@ header .logo {
   color: var(--violet);
   text-transform: uppercase;
 }
-header .logo img{
+
+header .logo img {
   width: 24px;
   height: 24px;
 }
+
 header .logo i {
   color: var(--pink);
   padding: 0 .2rem;
@@ -123,6 +127,14 @@ header.fa-times {
     transition: .7s linear;
   }
 
+  .home .content p {
+    text-align: justify;
+  }
+
+  .home .contebt p {
+    padding: 1.5rem 2rem;
+  }
+
   header .navbar ul {
     flex-flow: column;
     padding: 2rem 0;
@@ -143,13 +155,21 @@ header.fa-times {
     top: 5.5rem;
     opacity: 1;
   }
-  .home .contebt p{
-    padding: 1.5rem 2rem;
-  }
-  .home::before{
+
+  .home::before {
     display: none;
   }
-    .home .content p{
-      text-align: justify;
-    }
+
+.about .row {
+  flex-flow: column-reverse;
+}
+.about .row .image img{
+  height: 60vh;
+  width: 90vw;
+}
+.about .row .content{
+  padding: 0 2.5rem;
+}
+
+
 }

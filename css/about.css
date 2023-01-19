@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+    --black: #000000;
+    --yellow: #fac43b;
+}
+
+.heading{
+    font-size: 4rem;
+    color: var(--yellow);
+    text-align: center;
+    pad:  0 1rem;
+    padding-top: 6rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+}
+.title{
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: #aaa;
+}
+.about .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .row .image img{
+    height: 70vh;
+    width: 40vw;
+}
+.about .row .content{
+    padding-left: 5rem;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: var(--yellow);
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #999;
+    padding: 1rem 0;
+}
+.about .row .content button{
+    height: 3.5rem;
+    width: 18rem;
+    background: var(--yellow);
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+.about .row .content button:hover {
+    letter-spacing: .2rem;
+    opacity: .8;
+}
+

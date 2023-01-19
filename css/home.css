@@ -114,7 +114,7 @@
     bottom: -25rem;
     left: 50%;
     transform: translate(-50%);
-    border-top: 70vh solid #fff;
+    border-top: 70vh solid rgba(255, 255, 255, 0.304);
     border-radius: 50%;
     width: 120%;
     z-index: -1;
