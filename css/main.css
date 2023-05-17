@@ -2,7 +2,8 @@
 
 :root {
   --pink: #000000;
-  --violet: #fac43b;
+  --violet:#fac43b;
+  --scroll-bar: #125584;
 }
 
 * {
@@ -27,7 +28,21 @@ html {
   overflow-x: hidden;
 }
 
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
 
+html::-webkit-scrollbar-track {
+  background: rgba(83, 80, 80, 0.292);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-bar);
+}
+
+section{
+  min-height: 100vh;
+}
 
 header {
   width: 96%;
@@ -76,14 +91,16 @@ header .navbar ul li a:hover {
 }
 
 header .logo {
+  display: flex;
+  align-items: center;
   font-size: 2.5rem;
-  color: var(--violet);
+  color: #125584;
   text-transform: uppercase;
 }
 
 header .logo img {
-  width: 24px;
-  height: 24px;
+  width: 72px;
+  height: 48px;
 }
 
 header .logo i {
@@ -127,11 +144,11 @@ header.fa-times {
     transition: .7s linear;
   }
 
-  .home .content p {
+  .service .content p {
     text-align: justify;
   }
 
-  .home .contebt p {
+  .service .contebt p {
     padding: 1.5rem 2rem;
   }
 
@@ -156,7 +173,7 @@ header.fa-times {
     opacity: 1;
   }
 
-  .home::before {
+  .service::before {
     display: none;
   }
 
@@ -165,11 +182,20 @@ header.fa-times {
 }
 .about .row .image img{
   height: 60vh;
-  width: 90vw;
+  width: 100vw;
 }
 .about .row .content{
   padding: 0 2.5rem;
 }
+.contact .rows{
+  flex-flow: column;
+}
+
+.contact .rows .form-container {
+  width: 90%;
+  padding: 0;
+}
+
 
 
 }

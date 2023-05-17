@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+    --black: #000000;
+    --yellow:#fac43b;
+    --light-color:#eee;
+}
+
+.homeslider{
+    padding: 10rem 9%;
+            background: linear-gradient(rgba(43, 86, 171, 0.519), rgba(217, 217, 14, 0.421)), url(../images/bg1.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            z-index: 0;
+            overflow: hidden;
+            position: relative;
+}
+
+.homeslider .home-slide .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 8rem 11rem 2rem 11rem;
+}
+
+.homeslider .home-slide .slide .content{
+    flex: 1 1 45rem;
+}
+
+.homeslider .home-slide .slide .images {
+    flex: 1 1 35rem;
+}
+
+.homeslider .home-slide .slide .images img{
+    width: 100%;
+}
+.homeslider .home-slide .slide .content span{
+    color: var(--yellow);
+    font-size: 2.5rem;
+}
+
+.homeslider .home-slide .slide .content h3{
+    color: var(--black);
+    font-size: 7rem;
+}
+
+.homeslider .home-slide .slide .content p{
+    color: var(--light-color);
+    font-size: 2rem;
+    text-align: justify;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
+.homeslider .home-slide .slide .content button {
+    height: 4rem;
+    width: 20rem;
+    border-radius: 5rem;
+    background: var(--yellow);
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    box-shadow: 0 .3rem 1rem rgb(0, 0, 0);
+}
+
+.homeslider .home-slide .slide .content button:hover {
+    letter-spacing: .2rem;
+}
+
+.swiper-pagination-bullet-active{
+    background: var(--yellow);
+}
