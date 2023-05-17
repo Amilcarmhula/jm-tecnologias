@@ -5,7 +5,7 @@
     --yellow: #fac43b;
 }
 
-.home {
+.service {
     min-height: 100vh;
     background: linear-gradient(rgba(43, 86, 171, 0.519), rgba(217, 217, 14, 0.421)), url(../images/bg1.jpg) no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.home .content {
+.service .content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,20 +26,20 @@
     text-align: center;
 }
 
-.home .content h1 {
+.service .content h1 {
     font-size: 5rem;
     color: #fff;
     padding: 0 1rem;
     text-shadow: 0 .3rem .5rem rgb(0, 0, 0);
 }
 
-.home .content p {
+.service .content p {
     font-size: 2rem;
     color: #eee;
     padding: 1rem 25rem;
 }
 
-.home .content button {
+.service .content button {
     height: 4rem;
     width: 20rem;
     border-radius: 5rem;
@@ -52,17 +52,17 @@
     box-shadow: 0 .3rem 1rem rgb(0, 0, 0);
 }
 
-.home .content button:hover {
+.service .content button:hover {
     letter-spacing: .2rem;
 }
 
-.home .box-container {
+.service .box-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.home .box-container .box {
+.service .box-container .box {
     height: 25rem;
     width: 25rem;
     background: #fff;
@@ -73,7 +73,7 @@
     cursor: pointer;
 }
 
-.home .box-container .box i {
+.service .box-container .box i {
     height: 6rem;
     width: 6rem;
     line-height: 6rem;
@@ -86,29 +86,29 @@
     transition: .2s;
 }
 
-.home .box-container .box h3 {
+.service .box-container .box h3 {
     height: .3rem;
     font-size: 2rem;
     color: var(--black);
     transition: .2s;
 }
 
-.home .box-container .box p {
+.service .box-container .box p {
     font-size: 1.3rem;
     padding: 7rem 2rem;
     color: #222;
 }
 
-.home .box-container .box:hover i {
+.service .box-container .box:hover i {
     color: var(--black);
 }
 
-.home .box-container .box:hover h3 {
+.service .box-container .box:hover h3 {
     color: var(--yellow);
 }
 
 /*Possivelmente pode sair*/
-.home::before {
+.service::before {
     content: '';
     position: absolute;
     bottom: -25rem;

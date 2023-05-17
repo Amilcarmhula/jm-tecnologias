@@ -28,7 +28,7 @@
 }
 .about .row .image img{
     height: 70vh;
-    width: 40vw;
+    width: 55vw;
 }
 .about .row .content{
     padding-left: 5rem;
@@ -39,6 +39,7 @@
 }
 .about .row .content p{
     font-size: 1.6rem;
+    text-align: justify;
     color: #999;
     padding: 1rem 0;
 }

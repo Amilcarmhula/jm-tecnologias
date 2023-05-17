@@ -6,28 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JM-Tecnologias</title>
-    <link rel="icon" href="images/JMLOGOTRANS.png">
+    <link rel="icon" href="images/LOGO.png">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- link for cdn Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/home.css">
+    
+    <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/members.css">
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
     <!-- header section starts  -->
     <header>
-       <a href="#" class="logo"><i class="fas fa-graduation-cap"></i>JM-Tecnologias</a>
-       <!--  <a href="#" class="logo"><img src="images/JMLOGOTRANS.png" alt="">JM-Tecnologias</a>-->
+        <!-- <a href="#" class="logo"><i class="fas fa-graduation-cap"></i>JM-Tecnologias</a>-->
+        <a href="#" class="logo"><img src="images/LogoSite.png" alt="">JM-Tecnologias</a>
 
         <nav class="navbar">
             <ul>
                 <li><a href="#home" class="active">Inicio</a></li>
-                <li><a href="#about">Quem Somos ?</a></li>
                 <li><a href="#service">Serviços</a></li>
-                <li><a href="#team">Nossa Equipe</a></li>
+                <li><a href="#about">Quem Somos ?</a></li>
+                <li><a href="#members">Nossa Equipe</a></li>
                 <li><a href="#contact">Contactos</a></li>
             </ul>
 
@@ -36,17 +41,139 @@
     </header>
     <!-- header section ends -->
 
+<section class="homeslider" id="home">
+    <div class="swiper-container home-slide">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Branding</span>
+                    <h3>criação & gestão de marcas</h3>
+                    <p>Partimos da criação de nomes, imagens ou ideias associadas ao seu negocio ou empresa, como criação de logomarcas,
+                    símbolos, slogans e outros elementos que que representem a sua identidade visual</p>
+                    <a href="#"><button>Saiba Mais</button></a>
+                </div>
+                <div class="images">
+                    <img src="images/slide/JM-FLYER-2-1.jpg" alt="">
+                </div>
+            </div>
+    
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>web design</span>
+                    <h3>design & hospedagem</h3>
+                    <p>Criamos seu website do zero, seja ele institucional, blog e-commerce ou portfólio. Desenvolvemos o design, fornecemos o
+                    domínio e os melhores planos de hospedagem do mercado.</p>
+                    <a href="#"><button>Saiba Mais</button></a>
+                </div>
+                <div class="images">
+                    <img src="images/slide/Untitled-1.jpg" alt="">
+                </div>
+            </div>
 
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Segurança cibernética</span>
+                    <h3>Implementação & gestão de segurança</h3>
+                    <p>Nós protegemo-lo contra todo tipo de riscos. Criamos a melhor solução de segurança para a sua empresa. Fornecemos
+                    antivírus e deixamos seu ambiente computacional mais seguro.</p>
+                    <a href="#"><button>Saiba Mais</button></a>
+                </div>
+                <div class="images">
+                    <img src="images/slide/a (3).jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dishs</span>
+                    <h3>Massa Folhada</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+                        asperiores at quasi consequatur.</p>
+                    <a href="#"><button>Saiba Mais</button></a>
+                </div>
+                <div class="images">
+                    <img src="images/slide/a (3).jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
     <!-- home section starts  -->
-    <section class="home" id="home">
+    <section class="service" id="service">
         <div class="content">
             <h1>Serviços de qualidade, so aqui com a JM-Tecnologias</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae velit sapiente ab ipsam eligendi
-                et
-                veniam id non libero!</p>
+                et veniam id non libero!</p>
             <a href="#"><button>Saiba Mais</button></a>
         </div>
+        <!--Passar para nova section servicos-->
         <div class="box-container">
+            <!--<div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-diagnoses"></i>
+                <h3>Diagnostico e reparação</h3>
+                <p>Fazemos diagnóstico e reparação de equipamento informático.</p>
+            </div>-->
             <div class="box">
                 <i class="fas fa-diagnoses"></i>
                 <h3>Diagnostico e reparação</h3>
@@ -74,6 +201,10 @@
     </section>
     <!-- home section ends -->
 
+    <!--Start Section Services-->
+
+    <!--End Section Services-->
+
     <!-- about section starts  -->
     <section class="about" id="about">
         <h1 class="heading">Sobre Nos</h1>
@@ -81,11 +212,14 @@
         <div class="row">
             <div class="content">
                 <h3>melhore a vida e Saúde do seu Negócio conosco</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores placeat, at exercitationem consectetur fuga debitis deleniti vero sequi corporis a nihil voluptates, soluta aspernatur nostrum! Non optio rerum ut reiciendis?</p>
+                <p>Somo uma empresa jovem no mercado, criada em 2022 para responder a demanda do mercado no ramo de tecnologias de
+                informação e comunicação e marketing digital e imagem. A JM-Tecnologias.EI é uma empresa de pequeno porto(micro), que
+                mantem a sua margem competitiva através da entrega imediata de seus produtos e serviços, de boa relação com seus
+                clientes e sua capacidade de se adequar as necessidades dos mesmos.</p>
                 <a href="#"><button>Saiba mais aqui</button></a>
             </div>
             <div class="image">
-                <img src="images/JMLOGOTRANS.png" alt=""> 
+                <img src="images/LOGOTIPO.png" alt="">
             </div>
         </div>
     </section>
@@ -101,7 +235,8 @@
 
         <div class="card-container">
             <div class="card">
-                <img src="images/mebio.jpg" alt="">
+                <a href="equipe/Amilcar.html">
+                    <img src="images/mebio.jpg" alt=""></a>
                 <h3>Amilcar Mula</h3>
                 <p>Director técnico e Fundador de JM-Tecnologias</p>
                 <div class="icons">
@@ -112,7 +247,8 @@
                 </div>
             </div>
             <div class="card">
-                <img src="images/mebio.jpg" alt="">
+                <a href="equipe/Edmilson.html">
+                    <img src="images/eddybio2.jpeg" alt=""></a>
                 <h3>Edmilson Mula</h3>
                 <p>Director de marketing e publicidade</p>
                 <div class="icons">
@@ -139,11 +275,39 @@
     <!-- member section ends -->
 
     <!-- contact section starts  -->
+    <section class="contact" id="contact">
+    
+        <h1 class="heading"><span>contacto</span> Me</h1>
+    
+        <div class="row">
+            <div class="content">
+                <div class="info">
+                    <h3 id="mail"><i class="fas fa-envelope"></i>info@jm-tecnologias.co.mz</h3>
+                    <h3><i class="fas fa-phone"></i>+258 87 820 1993</h3>
+                    <h3><i class="fas fa-phone"></i>+258 84 710 0793</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i>Bairro patrice lumumba, Rua "A", 21.376, 211 </h3>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Nome Completo" class="box">
+                <input type="email" placeholder="Seu E-mail" class="box">
+                <input type="number" placeholder="Número de Telefone" class="box">
+                <input type="text" placeholder="Assunto" class="box">
+                <textarea cols="30" rows="10" placeholder="Mensagem" class="box message"></textarea>
+                <button type="submit" class="btn">Enviar <i class="fas fa-paper-plane"></i></button>
+            </form>    
+        </div>
+        <div class="direitos-autorais">
+            <span>copyright &copy; 2022 www.jm-tecnologias.co.mz</span>
+        </div>
+    </section>
     <!-- contact section ends -->
 
 
     <!-- jquery cdn link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jquery cdn link for Swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom js file link  -->
     <script src="js/main.js"></script>
