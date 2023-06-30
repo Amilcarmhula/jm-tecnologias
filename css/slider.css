@@ -7,7 +7,7 @@
 }
 
 .homeslider{
-    padding: 10rem 9%;
+    padding: 7rem 1%;
             background: linear-gradient(rgba(43, 86, 171, 0.519), rgba(217, 217, 14, 0.421)), url(../images/bg1.jpg) no-repeat;
             background-size: cover;
             background-position: center;
@@ -22,15 +22,15 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    padding: 8rem 11rem 2rem 11rem;
+    padding: 3rem 10rem 2rem 10rem;
 }
 
 .homeslider .home-slide .slide .content{
-    flex: 1 1 45rem;
+    flex: 1 1 40rem;
 }
 
 .homeslider .home-slide .slide .images {
-    flex: 1 1 35rem;
+    flex: 1 1 30rem;
 }
 
 .homeslider .home-slide .slide .images img{
@@ -38,12 +38,12 @@
 }
 .homeslider .home-slide .slide .content span{
     color: var(--yellow);
-    font-size: 2.5rem;
+    font-size: 5.5rem;
 }
 
 .homeslider .home-slide .slide .content h3{
     color: var(--black);
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .homeslider .home-slide .slide .content p{
