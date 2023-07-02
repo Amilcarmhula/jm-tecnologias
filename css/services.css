@@ -18,7 +18,7 @@
 
 .service .content {
     display: flex;
-    align-items: center;
+    align-items: ncenter;
     justify-content: center;
     flex-flow: column;
     padding-top: 14rem;
