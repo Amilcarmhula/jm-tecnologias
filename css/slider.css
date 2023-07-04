@@ -38,12 +38,25 @@
 }
 .homeslider .home-slide .slide .content span{
     color: var(--yellow);
-    font-size: 5.5rem;
+    font-size: 5rem;
+    padding-top: 6rem;
+    padding: 0 1rem;
+    padding: 0 1rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
 }
 
 .homeslider .home-slide .slide .content h3{
     color: var(--black);
     font-size: 4rem;
+    padding-top: 6rem;
+    padding: 0 1rem;
+    padding: 0 1rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
+    
 }
 
 .homeslider .home-slide .slide .content p{
@@ -52,6 +65,12 @@
     text-align: justify;
     padding: .5rem 0;
     line-height: 1.5;
+    
+    padding-top: 6rem;
+    padding: 0 1rem;
+    padding: 0 1rem;
+    font-weight: 500;
+    text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
 }
 
 .homeslider .home-slide .slide .content button {

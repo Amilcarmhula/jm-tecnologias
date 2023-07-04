@@ -37,6 +37,11 @@
     font-size: 2rem;
     color: #eee;
     padding: 1rem 25rem;
+    padding-top: 6rem;
+    padding: 0 1rem;
+    padding: 0 1rem;
+    font-weight: 500;
+    text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
 }
 
 .service .content button {
@@ -91,6 +96,7 @@
     font-size: 2rem;
     color: var(--black);
     transition: .2s;
+    
 }
 
 .service .box-container .box p {
