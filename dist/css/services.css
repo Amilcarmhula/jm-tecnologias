@@ -21,8 +21,8 @@
     align-items: ncenter;
     justify-content: center;
     flex-flow: column;
-    padding-top: 14rem;
-    padding-bottom: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
 
