@@ -148,14 +148,14 @@ header.fa-times {
     text-align: justify;
   }
 
-  .service .contebt p {
-    padding: 1.5rem 2rem;
+  .service .content p {
+    /*padding: 1.5rem 2rem;*/
   }
 
   .service .content p {
     font-size: 2.5rem;
     color: #eee;
-    padding: 2rem 10rem;
+  padding: 2rem 10rem;
 }
 
   header .navbar ul {
@@ -201,7 +201,10 @@ header.fa-times {
   width: 90%;
   padding: 0;
 }
-
-
-
 }
+
+@media (max-width:384px) {
+  .service .content p {
+    font-size: 2rem;
+    padding: 1rem 7.5rem;
+  }}
