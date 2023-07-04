@@ -5,67 +5,53 @@
     --yellow: #fac43b;
 }
 
-.heading {
-    font-size: 5rem;
-    text-align: center;
+.heading{
+    font-size: 4rem;
     color: var(--yellow);
+    text-align: center;
+    pad:  0 1rem;
     padding-top: 6rem;
-    padding: 0 1rem;
-    padding: 0 1rem;
     letter-spacing: .2rem;
+    font-weight: 500;
     font-weight: 500;
     text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
 }
-
-.title {
+.title{
     padding: 0 1rem;
     font-size: 2rem;
     text-align: center;
     font-weight: 400;
-    color: #383838;
+    color: #000000;
 }
-
-.about .row {
+.about .row{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.about .row .image img {
+.about .row .image img{
     height: 70vh;
     width: 55vw;
 }
-
-.about .row .content {
+.about .row .content{
     padding-left: 5rem;
 }
-
-.about .row .content h3 {
+.about .row .content h3{
     font-size: 3rem;
     color: var(--yellow);
     padding-top: 6rem;
-    padding: 0 1rem;
-    padding: 0 1rem;
-    letter-spacing: .2rem;
+    
     font-weight: 500;
-    text-shadow: 0 .1rem .2rem rgb(32, 32, 32);
+    text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
 }
-
-.about .row .content p {
-    font-size: 1.6rem;
+.about .row .content p{
+    font-size: 2rem;
     text-align: justify;
-    color: #383838;
+    color: rgb(54, 54, 54);
     padding: 1rem 0;
-
-    padding: 1rem 25rem;
-    padding-top: 6rem;
-    padding: 0 1rem;
-    padding: 0 1rem;
-    font-weight: 500;
-    text-shadow: 0 .3rem .5rem rgb(138, 137, 137);
+    
+    text-shadow: 0 .2rem .5rem rgb(29, 29, 29);
 }
-
-.about .row .content button {
+.about .row .content button{
     height: 3.5rem;
     width: 18rem;
     background: var(--yellow);
@@ -77,8 +63,8 @@
     font-size: 2rem;
     transition: .2s;
 }
-
 .about .row .content button:hover {
     letter-spacing: .2rem;
     opacity: .8;
 }
+
