@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 :root {
-  --pink: #000000;
-  --violet:#fac43b;
+  --black: #000000;
+  --yellow: #fac43b;
   --scroll-bar: #125584;
+  --font-for-min-384px: 2rem;
+  --font-for-max-384px: 1.7rem;
+  --font-base: 2.5rem;
+
 }
 
 * {
@@ -19,7 +23,7 @@
 }
 
 ::selection {
-  background: var(--pink);
+  background: var(--black);
   color: #fff;
 }
 
@@ -40,7 +44,7 @@ html::-webkit-scrollbar-thumb {
   background-color: var(--scroll-bar);
 }
 
-section{
+section {
   min-height: 100vh;
 }
 
@@ -80,14 +84,14 @@ header .navbar ul li {
 
 header .navbar ul li a {
   font-size: 2rem;
-  color: var(--pink);
+  color: var(--black);
   padding: 0 1rem;
   transition: .4s;
 }
 
 header .navbar ul li .active,
 header .navbar ul li a:hover {
-  color: var(--violet);
+  color: var(--yellow);
 }
 
 header .logo {
@@ -104,13 +108,13 @@ header .logo img {
 }
 
 header .logo i {
-  color: var(--pink);
+  color: var(--black);
   padding: 0 .2rem;
 }
 
 header .fa-bars {
   font-size: 3rem;
-  color: var(--pink);
+  color: var(--black);
   cursor: pointer;
   display: none;
   transition: .7s;
@@ -120,7 +124,7 @@ header .fa-bars {
 
 header.fa-times {
   transform: rotate(180deg);
-  color: var(--violet);
+  color: var(--yellow);
 }
 
 /*media queries*/
@@ -148,15 +152,13 @@ header.fa-times {
     text-align: justify;
   }
 
-  .service .content p {
-    /*padding: 1.5rem 2rem;*/
-  }
+
 
   .service .content p {
-    font-size: 2.5rem;
+    font-size: var(--font-base);
     color: #eee;
-  padding: 2rem 10rem;
-}
+    padding: 2rem 10rem;
+  }
 
   header .navbar ul {
     flex-flow: column;
@@ -183,28 +185,41 @@ header.fa-times {
     display: none;
   }
 
-.about .row {
-  flex-flow: column-reverse;
-}
-.about .row .image img{
-  height: 60vh;
-  width: 100vw;
-}
-.about .row .content{
-  padding: 0 2.5rem;
-}
-.contact .rows{
-  flex-flow: column;
-}
+  .about .row {
+    flex-flow: column-reverse;
+  }
 
-.contact .rows .form-container {
-  width: 90%;
-  padding: 0;
-}
+  .about .row .image img {
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .about .row .content {
+    padding: 0 2.5rem;
+  }
+
+  .contact .rows {
+    flex-flow: column;
+  }
+
+  .contact .rows .form-container {
+    width: 90%;
+    padding: 0;
+  }
 }
 
 @media (max-width:384px) {
   .service .content p {
-    font-size: 2rem;
+    color: #eee;
+    font-size: var(--font-for-max-384px);
     padding: 1rem 7.5rem;
-  }}
+  }
+}
+
+@media (min-width:384px) {
+  .service .content p {
+    color: #eee;
+    font-size: var(--font-for-min-384px);
+    padding: 1rem 7.5rem;
+  }
+}
