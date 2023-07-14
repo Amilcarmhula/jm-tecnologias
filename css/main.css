@@ -50,7 +50,7 @@ section {
 
 header {
   width: 96%;
-  background: #fff;
+  background: rgba(83, 80, 80, 0.292);
   position: fixed;
   top: 2rem;
   left: 50%;
@@ -84,21 +84,21 @@ header .navbar ul li {
 
 header .navbar ul li a {
   font-size: 2rem;
-  color: var(--black);
+  color: #fff;
   padding: 0 1rem;
   transition: .4s;
 }
 
 header .navbar ul li .active,
 header .navbar ul li a:hover {
-  color: var(--yellow);
+  color: #5499da;
 }
 
 header .logo {
   display: flex;
   align-items: center;
   font-size: 2.5rem;
-  color: #125584;
+  color: #fff;
   text-transform: uppercase;
 }
 
