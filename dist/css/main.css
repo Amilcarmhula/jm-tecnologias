@@ -93,6 +93,7 @@ header .navbar ul li a {
 header .navbar ul li .active,
 header .navbar ul li a:hover {
   color: #5499da;
+  text-shadow: 0 0 10px #fff;
 }
 
 header .logo {
