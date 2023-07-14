@@ -25,9 +25,19 @@
     padding-bottom: 3rem;
     text-align: center;
 }
-
-.service .content h1 {
+.heading-s{
     font-size: 5rem;
+    color: #125584;
+    text-align: center;
+    pad:  0 1rem;
+    padding-top: 6rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    font-weight: 500;
+    text-shadow: 0 0 10px #cecbcb;
+}
+.service .content h1 {
+    font-size: 4rem;
     color: #fff;
     padding: 0 1rem;
     text-shadow: 0 .3rem .5rem rgb(0, 0, 0);
@@ -48,7 +58,7 @@
     height: 4rem;
     width: 20rem;
     border-radius: 5rem;
-    background: var(--yellow);
+    background:  #125584;
     color: #fff;
     font-size: 2rem;
     cursor: pointer;
@@ -70,7 +80,7 @@
 .service .box-container .box {
     height: 25rem;
     width: 25rem;
-    background: #fff;
+    background: rgba(233, 230, 230, 0.055) ;
     text-align: center;
     border-radius: 1rem;
     box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
@@ -85,7 +95,7 @@
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: var(--yellow);
+    background:  #125584;
     font-size: 3rem;
     margin: 2rem 0;
     transition: .2s;
@@ -94,7 +104,7 @@
 .service .box-container .box h3 {
     height: .3rem;
     font-size: 2rem;
-    color: var(--black);
+    color: #a19f9f;
     transition: .2s;
     
 }
@@ -102,7 +112,7 @@
 .service .box-container .box p {
     font-size: 1.3rem;
     padding: 7rem 2rem;
-    color: #222;
+    color: #fff;
 }
 
 .service .box-container .box:hover i {
@@ -110,7 +120,7 @@
 }
 
 .service .box-container .box:hover h3 {
-    color: var(--yellow);
+    color: #125584;
 }
 
 /*Possivelmente pode sair*/
