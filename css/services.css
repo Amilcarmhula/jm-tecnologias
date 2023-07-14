@@ -86,6 +86,10 @@
     box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
     margin: 2rem;
     cursor: pointer;
+    box-shadow: 0 0 10px #cecbcb;
+}
+.service .box-container .box:hover {
+    box-shadow: 0 0 10px #125584;
 }
 
 .service .box-container .box i {
@@ -106,7 +110,6 @@
     font-size: 2rem;
     color: #a19f9f;
     transition: .2s;
-    
 }
 
 .service .box-container .box p {
@@ -117,10 +120,13 @@
 
 .service .box-container .box:hover i {
     color: var(--black);
+    text-shadow: 0 0 10px #fff;
+
 }
 
-.service .box-container .box:hover h3 {
-    color: #125584;
+.service .box-container .box:hover h3{
+    color: var(--black);
+    text-shadow: 0 0 10px #fff;
 }
 
 /*Possivelmente pode sair*/

@@ -51,6 +51,7 @@ section {
 header {
   width: 96%;
   background: rgba(83, 80, 80, 0.292);
+  box-shadow: 0 0 10px #cecbcb;
   position: fixed;
   top: 2rem;
   left: 50%;
