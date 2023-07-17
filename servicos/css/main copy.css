@@ -144,21 +144,6 @@ header .fa-times {
     opacity: o;
     transition: .7s linear;
   }
-
-  .service .content p {
-    text-align: justify;
-  }
-
-  .service .contebt p {
-    padding: 1.5rem 2rem;
-  }
-
-  .service .content p {
-    font-size: 2.5rem;
-    color: #eee;
-    padding: 2rem 10rem;
-}
-
   header .navbar ul {
     flex-flow: column;
     padding: 2rem 0;
@@ -179,30 +164,4 @@ header .fa-times {
     top: 5.5rem;
     opacity: 1;
   }
-
-  .service::before {
-    display: none;
-  }
-
-.about .row {
-  flex-flow: column-reverse;
-}
-.about .row .image img{
-  height: 60vh;
-  width: 100vw;
-}
-.about .row .content{
-  padding: 0 2.5rem;
-}
-.contact .rows{
-  flex-flow: column;
-}
-
-.contact .rows .form-container {
-  width: 90%;
-  padding: 0;
-}
-
-
-
 }

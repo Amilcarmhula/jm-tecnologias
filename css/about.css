@@ -1,27 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
 :root {
-    --black: #000000;
-    --yellow: #fac43b;
+  --black: #000000;
+  --yellow: #fac43b;
+  --blue: #3fa2e9;
+  --white: #fff;
+  --font-for-min-384px: 2rem;
+  --font-for-max-384px: 1.7rem;
+  --font-base: 2.5rem;
+  --blueShadow: 0 0 20px var(--blue);
+  --whiteShadow: 0 0 10px var(--white);
+  --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
+  --transparencia:  rgba(0, 0, 0, 0.192);
+}
+
+* {
+  font-family:
+    /* Gabriola,*/
+    'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--black);
+  color: var(--white);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(83, 80, 80, 0.292);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+}
+
+section{
+  min-height: 100vh;
+}
+.about{
+    background: /*linear-gradient(rgba(43, 86, 171, 0.519), rgba(217, 217, 14, 0.421)),*/ url(../images/back/b1\ \(6\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
 }
 
 .heading{
-    font-size: 4rem;
-    color: var(--yellow);
+    font-size: 5rem;
+    color: var(--blue);
     text-align: center;
     pad:  0 1rem;
     padding-top: 6rem;
     letter-spacing: .2rem;
     font-weight: 500;
     font-weight: 500;
-    text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
+    text-shadow: 0 0 5px #cecbcb;
 }
 .title{
     padding: 0 1rem;
     font-size: 2rem;
     text-align: center;
     font-weight: 400;
-    color: #000000;
+    color:  var(--white);
 }
 .about .row{
     display: flex;
@@ -37,32 +92,32 @@
 }
 .about .row .content h3{
     font-size: 3rem;
-    color: var(--yellow);
+    color: var(--white);
     padding-top: 6rem;
-    
+  
     font-weight: 500;
     text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
 }
 .about .row .content p{
     font-size: 2rem;
     text-align: justify;
-    color: rgb(54, 54, 54);
+    color: var(--white);
     padding: 1rem 0;
-    
     text-shadow: 0 .2rem .5rem rgb(29, 29, 29);
 }
 .about .row .content button{
     height: 3.5rem;
     width: 18rem;
-    background: var(--yellow);
+    background: var(--blue);
     color: #fff;
     border: none;
     border-radius: 5rem;
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    box-shadow: var(--whiteShadow);
     cursor: pointer;
     font-size: 2rem;
     transition: .2s;
 }
+
 .about .row .content button:hover {
     letter-spacing: .2rem;
     opacity: .8;

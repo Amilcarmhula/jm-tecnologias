@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
 :root {
-  --pink: #000000;
-  --violet:#fac43b;
-  --scroll-bar: #125584;
+    --black: #000000;
+    --yellow: #fac43b;
+    --blue: #3fa2e9;
+    --white: #fff;
+    --font-for-min-384px: 2rem;
+    --font-for-max-384px: 1.7rem;
+    --font-base: 2.5rem;
+    --blueShadow: 0 0 20px var(--blue);
+    --whiteShadow: 0 0 10px var(--white);
+    --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
+    --transparencia:  rgba(0, 0, 0, 0.192);
 }
 
 * {
@@ -19,8 +26,8 @@
 }
 
 ::selection {
-  background: var(--pink);
-  color: #fff;
+  background: var(--black);
+  color: var(--white);
 }
 
 html {
@@ -37,7 +44,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: var(--scroll-bar);
+  background-color: var(--blue);
 }
 
 section{
@@ -46,8 +53,7 @@ section{
 
 header {
   width: 96%;
-  background: #fff;
-    box-shadow: 0 0 10px #cecbcb;
+  box-shadow: var(--whiteShadow);
   position: fixed;
   top: 2rem;
   left: 50%;
@@ -65,7 +71,8 @@ header {
   top: 0;
   width: 100%;
   border-radius: 0;
-  box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
+  box-shadow: var(--whiteShadow);
+  background: var(--imageBackground);
 }
 
 header .navbar ul {
@@ -76,26 +83,28 @@ header .navbar ul {
 }
 
 header .navbar ul li {
-  margin: o 1rem;
+  margin: 0 1rem;
 }
 
 header .navbar ul li a {
   font-size: 2rem;
-  color: var(--pink);
+  color: var(--white);
   padding: 0 1rem;
   transition: .4s;
 }
 
 header .navbar ul li .active,
 header .navbar ul li a:hover {
-  color: var(--violet);
+  color: var(--blue);
+  text-shadow: 0 0 10px var(--white);
 }
 
 header .logo {
   display: flex;
   align-items: center;
   font-size: 2.5rem;
-  color: #125584;
+  color: var(--white);
+  text-shadow: var(--blueShadow);
   text-transform: uppercase;
 }
 
@@ -105,23 +114,23 @@ header .logo img {
 }
 
 header .logo i {
-  color: var(--pink);
+  color: var(--black);
   padding: 0 .2rem;
 }
 
 header .fa-bars {
   font-size: 3rem;
-  color: var(--pink);
+  color: var(--white);
   cursor: pointer;
   display: none;
-  transition: .7s;
+  transition: 1s;
 }
 
 
 
 header .fa-times {
   transform: rotate(180deg);
-  color: var(--violet);
+  color: var(--blue);
 }
 
 /*media queries*/
@@ -133,32 +142,19 @@ header .fa-times {
   header .fa-bars {
     display: block;
   }
-
+  header{
+    background:url(../images/back/b1\ \(6\).jpg) no-repeat;
+  }
   header .navbar {
+    background: var(--transparencia) ;
     position: fixed;
     top: -100rem;
     left: 0;
     width: 100%;
-    background: #fff;
-    border-radius: 1rem;
-    opacity: o;
-    transition: .7s linear;
+      border-radius: 5rem;
+    opacity: 0.3;
+    transition: 1s linear;
   }
-
-  .service .content p {
-    text-align: justify;
-  }
-
-  .service .contebt p {
-    padding: 1.5rem 2rem;
-  }
-
-  .service .content p {
-    font-size: 2.5rem;
-    color: #eee;
-    padding: 2rem 10rem;
-}
-
   header .navbar ul {
     flex-flow: column;
     padding: 2rem 0;
@@ -176,33 +172,8 @@ header .fa-times {
   }
 
   header .nav-toggle {
-    top: 5.5rem;
+    top: 8rem;
     opacity: 1;
+    box-shadow: var(--blueShadow);
   }
-
-  .service::before {
-    display: none;
-  }
-
-.about .row {
-  flex-flow: column-reverse;
-}
-.about .row .image img{
-  height: 60vh;
-  width: 100vw;
-}
-.about .row .content{
-  padding: 0 2.5rem;
-}
-.contact .rows{
-  flex-flow: column;
-}
-
-.contact .rows .form-container {
-  width: 90%;
-  padding: 0;
-}
-
-
-
 }
