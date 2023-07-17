@@ -1,12 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
 :root {
     --black: #000000;
     --yellow: #fac43b;
+    --blue: #3fa2e9;
+    --white: #fff;
+    --font-for-min-384px: 2rem;
+    --font-for-max-384px: 1.7rem;
+    --font-base: 2.5rem;
+    --blueShadow: 0 0 20px var(--blue);
+    --whiteShadow: 0 0 10px var(--white);
+    --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
+    --transparencia:  rgba(0, 0, 0, 0.192);
+}
+
+* {
+  font-family:
+    /* Gabriola,*/
+    'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--black);
+  color: var(--white);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(83, 80, 80, 0.292);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+}
+
+section{
+  min-height: 100vh;
 }
 
 .service {
-    min-height: 100vh;
     background: /*linear-gradient(rgba(43, 86, 171, 0.519), rgba(217, 217, 14, 0.421)),*/ url(../images/back/b1\ \(6\).jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,20 +70,20 @@
     padding-bottom: 3rem;
     text-align: center;
 }
-.heading-s{
+.heading{
     font-size: 5rem;
-    color: #125584;
+    color: var(--blue);
     text-align: center;
     pad:  0 1rem;
     padding-top: 6rem;
     letter-spacing: .2rem;
     font-weight: 500;
     font-weight: 500;
-    text-shadow: 0 0 10px #cecbcb;
+    text-shadow: 0 0 5px #cecbcb;
 }
 .service .content h1 {
     font-size: 4rem;
-    color: #fff;
+    color: var(--white);
     padding: 0 1rem;
     text-shadow: 0 .3rem .5rem rgb(0, 0, 0);
 }
@@ -58,8 +103,8 @@
     height: 4rem;
     width: 20rem;
     border-radius: 5rem;
-    background:  #125584;
-    color: #fff;
+    background:  var(--blue);
+    color: var(--white);
     font-size: 2rem;
     cursor: pointer;
     transition: .2s;
@@ -80,16 +125,16 @@
 .service .box-container .box {
     height: 25rem;
     width: 25rem;
-    background: rgba(233, 230, 230, 0.055) ;
+    background: var(--transparencia);
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
+    box-shadow: var(--white);
     margin: 2rem;
     cursor: pointer;
-    box-shadow: 0 0 10px #cecbcb;
+    box-shadow: 0 0 10px var(--white);
 }
 .service .box-container .box:hover {
-    box-shadow: 0 0 10px #125584;
+    box-shadow: 0 0 10px var(--blue);
 }
 
 .service .box-container .box i {
@@ -98,8 +143,8 @@
     line-height: 6rem;
     text-align: center;
     border-radius: 50%;
-    color: #fff;
-    background:  #125584;
+    color: var(--white);
+    background:  var(--blue);
     font-size: 3rem;
     margin: 2rem 0;
     transition: .2s;
@@ -120,14 +165,14 @@
 
 .service .box-container .box:hover i {
     color: var(--black);
-    text-shadow: 0 0 10px #fff;
-    box-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px var(--white);
+    box-shadow: 0 0 10px var(--white);
 
 }
 
 .service .box-container .box:hover h3{
     color: var(--black);
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px var(--white);
 }
 
 /*Possivelmente pode sair*/

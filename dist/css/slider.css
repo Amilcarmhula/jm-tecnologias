@@ -1,9 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
 :root {
-    --black: #000000;
-    --yellow:#fac43b;
-    --light-color:#eee;
+  --black: #000000;
+  --yellow: #fac43b;
+  --blue: #3fa2e9;
+  --white: #fff;
+  --font-for-min-384px: 2rem;
+  --font-for-max-384px: 1.7rem;
+  --font-base: 2.5rem;
+  --blueShadow: 0 0 20px var(--blue);
+  --whiteShadow: 0 0 10px var(--white);
+  --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
+  --transparencia:  rgba(0, 0, 0, 0.192);
+}
+
+* {
+  font-family:
+    /* Gabriola,*/
+    'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--black);
+  color: var(--white);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(83, 80, 80, 0.292);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+}
+
+section{
+  min-height: 100vh;
 }
 
 .homeslider{
@@ -25,7 +70,7 @@
 }
 
 .homeslider .home-slide .slide .images {
-    flex: 1 1 70rem;
+   /* flex: 70rem;*/
 }
 
 .homeslider .home-slide .slide .images img{
@@ -36,7 +81,7 @@
 }
 
 
-
+/*
 .homeslider .home-slide .slide .content span{
     color: var(--yellow);
     font-size: 5rem;
@@ -86,7 +131,30 @@
 .homeslider .home-slide .slide .content button:hover {
     letter-spacing: .2rem;
 }
-
+*/
 .swiper-pagination-bullet-active{
     background: #125584;
+}
+
+/*media queries*/
+@media (max-width:768px) {
+  section{
+    min-height: 30vh;
+  }
+  .homeslider .home-slide .slide{
+    padding: 4rem 3rem 0rem 3rem;
+}
+}
+
+@media (max-width:384px) {
+  section{
+    min-height: 30vh;
+  }
+  .homeslider .home-slide .slide{
+    padding: 4rem 3rem 0rem 3rem;
+}
+}
+
+@media (min-width:384px) {
+
 }

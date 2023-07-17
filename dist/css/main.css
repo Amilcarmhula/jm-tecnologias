@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
 :root {
   --black: #000000;
   --yellow: #fac43b;
-  --scroll-bar: #125584;
+  --blue: #3fa2e9;
+  --white: #fff;
   --font-for-min-384px: 2rem;
   --font-for-max-384px: 1.7rem;
   --font-base: 2.5rem;
-
+  --blueShadow: 0 0 20px var(--blue);
+  --whiteShadow: 0 0 10px var(--white);
+  --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
+  --transparencia:  rgba(0, 0, 0, 0.192);
 }
 
 * {
@@ -24,7 +27,7 @@
 
 ::selection {
   background: var(--black);
-  color: #fff;
+  color: var(--white);
 }
 
 html {
@@ -41,92 +44,11 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: var(--scroll-bar);
+  background-color: var(--blue);
 }
 
 section {
   min-height: 100vh;
-}
-
-header {
-  width: 96%;
-  background: rgba(83, 80, 80, 0.292);
-  box-shadow: 0 0 10px #cecbcb;
-  position: fixed;
-  top: 2rem;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  z-index: 1000;
-  transform-origin: .2s;
-}
-
-.header-active {
-  top: 0;
-  width: 100%;
-  border-radius: 0;
-  box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
-}
-
-header .navbar ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-}
-
-header .navbar ul li {
-  margin: o 1rem;
-}
-
-header .navbar ul li a {
-  font-size: 2rem;
-  color: #fff;
-  padding: 0 1rem;
-  transition: .4s;
-}
-
-header .navbar ul li .active,
-header .navbar ul li a:hover {
-  color: #5499da;
-  text-shadow: 0 0 10px #fff;
-}
-
-header .logo {
-  display: flex;
-  align-items: center;
-  font-size: 2.5rem;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-header .logo img {
-  width: 72px;
-  height: 48px;
-}
-
-header .logo i {
-  color: var(--black);
-  padding: 0 .2rem;
-}
-
-header .fa-bars {
-  font-size: 3rem;
-  color: var(--black);
-  cursor: pointer;
-  display: none;
-  transition: .7s;
-}
-
-
-
-header.fa-times {
-  transform: rotate(180deg);
-  color: var(--yellow);
 }
 
 /*media queries*/

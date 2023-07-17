@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
 :root {
     --black: #000000;
-    --yellow: #f9ca24;
+    --yellow: #fac43b;
+    --blue: #3fa2e9;
+    --white: #fff;
+    --font-for-min-384px: 2rem;
+    --font-for-max-384px: 1.7rem;
+    --font-base: 2.5rem;
+    --blueShadow: 0 0 20px var(--blue);
+    --whiteShadow: 0 0 10px var(--white);
+    --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
+    --transparencia:  rgba(0, 0, 0, 0.192);
 }
 /*All body Configuration*/
 *{
