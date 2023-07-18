@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 :root {
     --black: #000000;
     --yellow: #fac43b;
@@ -10,55 +11,67 @@
     --blueShadow: 0 0 20px var(--blue);
     --whiteShadow: 0 0 10px var(--white);
     --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
-    --transparencia:  rgba(0, 0, 0, 0.192);
+    --transparencia: rgba(0, 0, 0, 0.192);
 }
 
 * {
-  font-family:
-    /* Gabriola,*/
-    'Roboto', sans-serif;
-  text-transform: capitalize;
-  text-decoration: none;
-  outline: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    font-family:
+        /* Gabriola,*/
+        'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 ::selection {
-  background: var(--black);
-  color: var(--white);
+    background: var(--black);
+    color: var(--white);
 }
 
 html {
-  font-size: 62.5%;
-  overflow-x: hidden;
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
-  width: 1.4rem;
+    width: 1.4rem;
 }
 
 html::-webkit-scrollbar-track {
-  background: rgba(83, 80, 80, 0.292);
+    background: rgba(83, 80, 80, 0.292);
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: var(--blue);
+    background-color: var(--blue);
 }
 
-section{
-  min-height: 100vh;
+section {
+    min-height: 100vh;
 }
 
 .service {
-    background: /*linear-gradient(rgba(43, 86, 171, 0.519), rgba(217, 217, 14, 0.421)),*/ url(../images/back/b1\ \(6\).jpg) no-repeat;
+    background:
+        /*linear-gradient(rgba(43, 86, 171, 0.519), rgba(217, 217, 14, 0.421)),*/
+        url(../images/back/b1\ \(6\).jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     z-index: 0;
     overflow: hidden;
     position: relative;
+}
+.service .heading {
+    font-size: 5rem;
+    color: var(--blue);
+    text-align: center;
+    padding-top: 6rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+    font-weight: 500;
+    text-shadow: 0 0 5px #cecbcb;
 }
 
 .service .content {
@@ -70,17 +83,9 @@ section{
     padding-bottom: 3rem;
     text-align: center;
 }
-.heading{
-    font-size: 5rem;
-    color: var(--blue);
-    text-align: center;
-    pad:  0 1rem;
-    padding-top: 6rem;
-    letter-spacing: .2rem;
-    font-weight: 500;
-    font-weight: 500;
-    text-shadow: 0 0 5px #cecbcb;
-}
+
+
+
 .service .content h1 {
     font-size: 4rem;
     color: var(--white);
@@ -90,6 +95,7 @@ section{
 
 .service .content p {
     font-size: 2rem;
+    text-align: center;
     color: #eee;
     padding: 1rem 25rem;
     padding-top: 6rem;
@@ -97,19 +103,6 @@ section{
     padding: 0 1rem;
     font-weight: 500;
     text-shadow: 0 .3rem .5rem rgb(29, 29, 29);
-}
-
-.service .content button {
-    height: 4rem;
-    width: 20rem;
-    border-radius: 5rem;
-    background:  var(--blue);
-    color: var(--white);
-    font-size: 2rem;
-    cursor: pointer;
-    transition: .2s;
-    border: none;
-    box-shadow: 0 .3rem 1rem rgb(0, 0, 0);
 }
 
 .service .content button:hover {
@@ -133,6 +126,7 @@ section{
     cursor: pointer;
     box-shadow: 0 0 10px var(--white);
 }
+
 .service .box-container .box:hover {
     box-shadow: 0 0 10px var(--blue);
 }
@@ -144,7 +138,7 @@ section{
     text-align: center;
     border-radius: 50%;
     color: var(--white);
-    background:  var(--blue);
+    background: var(--blue);
     font-size: 3rem;
     margin: 2rem 0;
     transition: .2s;
@@ -170,7 +164,7 @@ section{
 
 }
 
-.service .box-container .box:hover h3{
+.service .box-container .box:hover h3 {
     color: var(--black);
     text-shadow: 0 0 10px var(--white);
 }
@@ -186,4 +180,54 @@ section{
     border-radius: 50%;
     width: 120%;
     z-index: -1;
+}
+
+/*media queries*/
+@media (max-width:1035px) {}
+
+@media (max-width:832px) {}
+
+@media (max-width:659px) {}
+
+@media (max-width:630px) {}
+
+@media (max-width:480px) {}
+
+@media (max-width:360px) {
+    
+
+    .service .heading {
+        font-size: 2rem;
+        text-align: left;
+        padding-top: 0rem;
+        letter-spacing: .2rem;
+        text-shadow: 0 0 3px #cecbcb;
+    }
+    .service .content h1 {
+        font-size: 1.5rem;
+    }
+    .service .content p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .service .box-container .box {
+        height: 12.5rem;
+        width: 12.5rem;
+        margin: .5rem;
+    }
+    .service .box-container .box i {
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    .service .box-container .box h3 {
+        height: .3rem;
+        font-size: 1rem;
+    }
+    .service .box-container .box p {
+        font-size: .65rem;
+        padding: 3.5rem 1rem;
+    }
 }
