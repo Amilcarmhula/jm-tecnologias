@@ -11,7 +11,7 @@
     --whiteShadow: 0 0 10px var(--white);
     --imageBackground: url(../images/back/b1\ \(6\).jpg) no-repeat;
     --transparencia:  rgba(0, 0, 0, 0.192);
-}
+  }
 
 * {
   font-family:
