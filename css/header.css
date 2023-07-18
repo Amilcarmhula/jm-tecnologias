@@ -191,12 +191,12 @@ header .fa-times {
     text-align: center;
   }
   header .navbar {
-    background: var(--transparencia) ;
+    background: rgba(0, 0, 0, 0.651) ;
     position: fixed;
     top: -100rem;
     left: 0;
     width: 100%;
-      border-radius: 5rem;
+    border-radius: 10px;
     opacity: 0.3;
     transition: 1s linear;
   }
