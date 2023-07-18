@@ -147,3 +147,13 @@ section {
     padding: 1rem 7.5rem;
   }
 }
+
+
+
+
+
+
+@media (max-width:720px) {}
+@media (max-width:480px) {}
+@media (max-width:360px) {}
+@media (max-width:240px) {}
