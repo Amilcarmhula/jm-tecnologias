@@ -24,6 +24,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all .2s linear;
 }
 
 ::selection {
@@ -82,7 +83,7 @@ section {
 }
 .service .content {
     display: flex;
-    align-items: ncenter;
+    align-items: center;
     justify-content: center;
     flex-flow: column;
     padding-top: 1rem;
