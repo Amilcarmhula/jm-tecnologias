@@ -60,7 +60,7 @@ section{
     overflow: hidden;
     position: relative;
 }
-.heading{
+.contact .heading{
     font-size: 5rem;
     color: var(--blue);
     text-align: center;

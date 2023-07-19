@@ -60,6 +60,24 @@ section{
   overflow: hidden;
   position: relative;
 }
+.members .heading {
+  font-size: 5rem;
+  color: var(--blue);
+  text-align: center;
+  padding-top: 6rem;
+  letter-spacing: .2rem;
+  font-weight: 500;
+  font-weight: 500;
+  text-shadow: 0 0 5px #cecbcb;
+}
+.members .title{
+  padding: 0 1rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  color:  var(--white);
+}
+
 .members .card-container{
     display: flex;
     align-items: center;
@@ -104,4 +122,88 @@ section{
 
 .members .card-container .card .icons a:hover{
     text-shadow:var(--whiteShadow);
+}
+
+@media (max-width:1035px) {}
+
+@media (max-width:832px) {}
+
+@media (max-width:659px) {}
+
+@media (max-width:630px) {}
+
+@media (max-width:480px) {
+  .members .heading {
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 0rem;
+    letter-spacing: .2rem;
+    text-shadow: 0 0 3px #cecbcb;
+  }
+  .members .title{
+    padding:0;
+    font-size: 1.5rem;
+  }
+  .members .card-container{
+    padding: .5rem 0;
+    flex-wrap:nowrap;
+  }
+  .members .card-container .card{
+    padding: 2rem;
+    margin: .3rem;
+    width: 20rem;
+  }
+  .members .card-container .card img{
+    height: 15rem;
+    width: 100%;
+  }
+  .members .card-container .card h3{
+    font-size: 1.5rem;
+    padding: .5rem 0;
+  }
+  .members .card-container .card p{
+    font-size: 1.3rem;
+  }
+  .members .card-container .card .icons a{
+    font-size: 1.9rem;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width:360px) {
+ .members .heading {
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 0rem;
+  letter-spacing: .2rem;
+  text-shadow: 0 0 3px #cecbcb;
+}
+.members .title{
+  padding:0;
+  font-size: 1.5rem;
+}
+.members .card-container{
+  padding: .5rem 0;
+  flex-wrap:nowrap;
+}
+.members .card-container .card{
+  padding: 1rem;
+  margin: .3rem;
+  width: 20rem;
+}
+.members .card-container .card img{
+  height: 15rem;
+  width: 100%;
+}
+.members .card-container .card h3{
+  font-size: 1.5rem;
+  padding: .5rem 0;
+}
+.members .card-container .card p{
+  font-size: 1.3rem;
+}
+.members .card-container .card .icons a{
+  font-size: 1.9rem;
+  padding: 1rem 0;
+}
 }

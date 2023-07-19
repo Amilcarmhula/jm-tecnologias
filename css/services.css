@@ -73,7 +73,13 @@ section {
     font-weight: 500;
     text-shadow: 0 0 5px #cecbcb;
 }
-
+.service .title{
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color:  var(--white);
+}
 .service .content {
     display: flex;
     align-items: ncenter;
