@@ -198,6 +198,43 @@ section {
 
 @media (max-width:630px) {}
 
+@media (max-width:530px) {
+    .service .heading {
+        font-size: 2rem;
+        text-align: left;
+        padding-top: 0rem;
+        letter-spacing: .2rem;
+        text-shadow: 0 0 3px #cecbcb;
+    }
+    .service .content h1 {
+        font-size: 1.5rem;
+    }
+    .service .content p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .service .box-container .box {
+        height: 12.5rem;
+        width: 12.5rem;
+        margin: .5rem;
+    }
+    .service .box-container .box i {
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    .service .box-container .box h3 {
+        height: .3rem;
+        font-size: 1rem;
+    }
+    .service .box-container .box p {
+        font-size: .65rem;
+        padding: 3.5rem 1rem;
+    }
+}
+
 @media (max-width:480px) {
     .service .heading {
         font-size: 2rem;

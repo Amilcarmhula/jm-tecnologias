@@ -125,6 +125,35 @@ html::-webkit-scrollbar-thumb {
 
 @media (max-width:630px) {}
 
+
+@media (max-width:530px) {
+  .contact .heading {
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 0rem;
+    letter-spacing: .2rem;
+    text-shadow: 0 0 3px #cecbcb;
+  }
+  
+  .contact .row .content .info{
+    display: list-item;
+  }
+  .contact .row .content {
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .contact .row .content .info h3 {
+    font-size: 1.3rem;
+  }
+  .contact .row .content .info #mail {
+    text-transform: lowercase;
+    font-size: 1.3rem;
+  }
+  .contact .row .content .info h3 i {
+    padding-right: 1rem;
+    color: greenyellow;
+  }
+}
 @media (max-width:480px) {
   .contact .heading {
     font-size: 2rem;
