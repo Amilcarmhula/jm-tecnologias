@@ -201,7 +201,7 @@ header .fa-times {
     opacity: 0.3;
     transition: 1s linear;
   }
-  header .nav-toggle {
+ header .nav-toggle {
     top: 8rem;
     opacity: 1;
     box-shadow: var(--blueShadow);
