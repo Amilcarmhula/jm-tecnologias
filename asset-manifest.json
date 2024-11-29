@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/jm-tecnologias/static/css/main.f2b66ddb.css",
+    "main.js": "/github.io/jm-tecnologias/static/js/main.fe184396.js",
+    "static/js/453.5f0c68fd.chunk.js": "/github.io/jm-tecnologias/static/js/453.5f0c68fd.chunk.js",
+    "index.html": "/github.io/jm-tecnologias/index.html",
+    "main.f2b66ddb.css.map": "/github.io/jm-tecnologias/static/css/main.f2b66ddb.css.map",
+    "main.fe184396.js.map": "/github.io/jm-tecnologias/static/js/main.fe184396.js.map",
+    "453.5f0c68fd.chunk.js.map": "/github.io/jm-tecnologias/static/js/453.5f0c68fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2b66ddb.css",
+    "static/js/main.fe184396.js"
+  ]
+}
