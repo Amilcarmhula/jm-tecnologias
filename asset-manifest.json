@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jm-tecnologias/static/css/main.f2b66ddb.css",
-    "main.js": "/jm-tecnologias/static/js/main.9d84a7d8.js",
+    "main.css": "/jm-tecnologias/static/css/main.978427d6.css",
+    "main.js": "/jm-tecnologias/static/js/main.02982816.js",
     "static/js/453.5f0c68fd.chunk.js": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js",
     "index.html": "/jm-tecnologias/index.html",
-    "main.f2b66ddb.css.map": "/jm-tecnologias/static/css/main.f2b66ddb.css.map",
-    "main.9d84a7d8.js.map": "/jm-tecnologias/static/js/main.9d84a7d8.js.map",
+    "main.978427d6.css.map": "/jm-tecnologias/static/css/main.978427d6.css.map",
+    "main.02982816.js.map": "/jm-tecnologias/static/js/main.02982816.js.map",
     "453.5f0c68fd.chunk.js.map": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2b66ddb.css",
-    "static/js/main.9d84a7d8.js"
+    "static/css/main.978427d6.css",
+    "static/js/main.02982816.js"
   ]
 }
