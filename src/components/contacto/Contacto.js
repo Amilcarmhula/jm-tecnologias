@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form"
 import "./contactoStyle.css"
+
 function ContactoPage() {
     const { register, handleSubmit } = useForm()
 
@@ -8,7 +9,7 @@ function ContactoPage() {
 
     }
     return (
-        <div className="section-wrapper">
+        <div className="section-wrapper" id="contact">
             <h1> Vamos Conversar</h1>
             <p>Entre em contato conosco hoje para agendar uma consulta ou solicitar assistência emergencial. estamos ansiosos para atender e superar suas expectativas com serviços de tecnologia rápidos, confiáveis ​​e profissionais.</p>
             <div className="box-wrapper">
