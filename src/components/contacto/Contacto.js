@@ -22,8 +22,8 @@ function ContactoPage() {
                             <span>Telefone: </span> <a href="tel:+258847100793">+258 84 710 0793</a>
                         </li>
                         <li>
-                            <i className="fa-solid fa-phone"></i>
-                            <span>WhatsApp: </span> <a href="tel:+258847100793">+258 84 710 0793</a>
+                            <i className="fa-brands fa-whatsapp"></i>
+                            <span>WhatsApp: </span> <a href="https://wa.me/258847100793?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços!" target="_blank">+258 84 710 0793</a>
                         </li>
                         <li>
                             <i className="fa-solid fa-at"></i>
