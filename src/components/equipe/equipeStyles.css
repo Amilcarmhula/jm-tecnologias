@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh;3 */
+    padding: 20px;
+    /* background: #060e54; */
+    background: url('../../assets/team-cover3.jpg')  center;
+    /* background:  rgb(68, 68, 205); */
+}
+
+.card-list .card-item {
+    color:#fff;
+    user-select: none;
+    /* width: 350px; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 3px solid rgb(255, 255, 255, .5);
+}
+
+.card-list .card-item .user-image{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 2px;
+    /* height: 200px; */
+}
+
+
+
+.card-list .card-item .user-profession{
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 14px 0px 40px;
+}
+
+.card-list .card-item .message-button
+{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: .2s ease;
+}
+
+.card-list .card-item .message-button:hover{
+    background: rgba(255, 255, 255, .1);
+    border: 1px solid #fff;
+    color: #fff;
+}
