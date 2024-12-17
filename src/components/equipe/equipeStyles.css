@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .container{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    /* min-height: 100vh;3 */
-    padding: 20px;
-    /* background: #060e54; */
-    background: url('../../assets/team-cover3.jpg')  center;
+    /* min-height: 100vh; */
+    padding: 40px;
+    background: #060e54;
+    /* background: url('../../assets/team-cover3.jpg') no-repeat center; */
     /* background:  rgb(68, 68, 205); */
 }
 
