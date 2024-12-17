@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/jm-tecnologias/static/css/main.6e703314.css",
-    "main.js": "/jm-tecnologias/static/js/main.09ea85f8.js",
+    "main.css": "/jm-tecnologias/static/css/main.4e2593b5.css",
+    "main.js": "/jm-tecnologias/static/js/main.abaa1da1.js",
     "static/js/453.5f0c68fd.chunk.js": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js",
-    "static/media/team-cover3.jpg": "/jm-tecnologias/static/media/team-cover3.dc7d4c8b65a0db551f1b.jpg",
     "static/media/1.jpg": "/jm-tecnologias/static/media/1.4cec2a11caa3aeb1cc21.jpg",
     "index.html": "/jm-tecnologias/index.html",
-    "main.6e703314.css.map": "/jm-tecnologias/static/css/main.6e703314.css.map",
-    "main.09ea85f8.js.map": "/jm-tecnologias/static/js/main.09ea85f8.js.map",
+    "main.4e2593b5.css.map": "/jm-tecnologias/static/css/main.4e2593b5.css.map",
+    "main.abaa1da1.js.map": "/jm-tecnologias/static/js/main.abaa1da1.js.map",
     "453.5f0c68fd.chunk.js.map": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e703314.css",
-    "static/js/main.09ea85f8.js"
+    "static/css/main.4e2593b5.css",
+    "static/js/main.abaa1da1.js"
   ]
 }
