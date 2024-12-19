@@ -19,6 +19,7 @@ const client = twilio(accountSid, authToken);
 app.post('/api/send-message', (req, res) => {
     const { message } = req.body;
     console.log("TESTE!!!! "+message)
+    console.log("TESTE!!!! "+message)
 
 
     // client.messages
