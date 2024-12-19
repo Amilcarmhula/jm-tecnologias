@@ -9,31 +9,52 @@ function ContactoPage() {
     //     console.log(e)
     // }
     const onSubmit = (data) => {
-        const messagePayload = {
-            to: data.numero,
-            message: `*Nome:* ${data.nome}
-             *Contacto:* ${data.numero}
-             *E-mail:* ${data.email}
-             *Descricao:* ${data.descricao}`,
-        };
-        fetch('https://Amilcarmhula.github.io/jm-tecnologias:3010/api/send-message', {
-            // fetch('https://localhost:3010/api/send-message', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(messagePayload),
+        // const messagePayload = {
+        //     message: `*Nome:* ${data.nome}
+        //      *Contacto:* ${data.numero}
+        //      *E-mail:* ${data.email}
+        //      *Descricao:* ${data.descricao}`,
+        // };
+        // fetch('http://localhost:3010/send-message', {
+        //     // fetch('https://jm-api-vi9j.onrender.com/send-message', {
+        //     method: 'POST',
+        //     headers: { 'Content-Type': 'application/json' },
+        //     body: JSON.stringify(data),
+        // })
+        //     .then((response) => response.json())
+        //     .then((result) => {
+        //         if (result.success) {
+        //             console.log(`Mensagem enviada com sucesso: ${result.sid}`);
+        //         } else {
+
+        //             console.error(`Erro ao enviar a mensagem: ${result.error}`);
+        //         }
+        //     })
+        //     .catch((error) => console.error(`Falha na solicitação: ${error.message}`));
+        // console.log(data)
+
+        //   fetch('http://localhost:3010/send-message', {
+        fetch('https://jm-api-vi9j.onrender.com/send-message', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
         })
-            .then((response) => response.json())
-            .then((result) => {
-                if (result.success) {
-                    console.log(`Mensagem enviada com sucesso: ${result.sid}`);
-                } else {
-                    console.error(`Erro ao enviar a mensagem: ${result.error}`);
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
                 }
+                return response.json();
             })
-            .catch((error) => console.error(`Falha na solicitação: ${error.message}`));
-            // console.log(data)
-        };
-    
+            .then(data => {
+                console.log("Server response:", data);
+            })
+            .catch(error => {
+                console.error("Error sending data:", error);
+            });
+    };
+
     return (
         <div className="section-wrapper" id="contact">
             <h1> Vamos Conversar</h1>
