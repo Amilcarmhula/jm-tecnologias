@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/jm-tecnologias/static/css/main.71b398c3.css",
-    "main.js": "/jm-tecnologias/static/js/main.e65e9938.js",
+    "main.js": "/jm-tecnologias/static/js/main.9ea80586.js",
     "static/js/453.5f0c68fd.chunk.js": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js",
     "static/media/1.jpg": "/jm-tecnologias/static/media/1.4cec2a11caa3aeb1cc21.jpg",
     "index.html": "/jm-tecnologias/index.html",
     "main.71b398c3.css.map": "/jm-tecnologias/static/css/main.71b398c3.css.map",
-    "main.e65e9938.js.map": "/jm-tecnologias/static/js/main.e65e9938.js.map",
+    "main.9ea80586.js.map": "/jm-tecnologias/static/js/main.9ea80586.js.map",
     "453.5f0c68fd.chunk.js.map": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71b398c3.css",
-    "static/js/main.e65e9938.js"
+    "static/js/main.9ea80586.js"
   ]
 }
