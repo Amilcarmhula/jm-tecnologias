@@ -9,9 +9,9 @@
     justify-content: center;
     /* min-height: 100vh; */
     padding: 40px;
-    background: #060e54;
+    /* background: #060e54; */
     /* background: url('../../assets/team-cover3.jpg') no-repeat center; */
-    /* background:  rgb(68, 68, 205); */
+    background:  rgb(68, 68, 205);
 }
 
 .card-list .card-item {
