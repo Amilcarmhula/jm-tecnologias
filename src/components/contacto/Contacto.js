@@ -1,13 +1,39 @@
 import { useForm } from "react-hook-form"
 import "./contactoStyle.css"
 
+
 function ContactoPage() {
     const { register, handleSubmit } = useForm()
 
-    const onSubmit = (e) => {
-        console.log(e)
-
-    }
+    // const onSubmit = (e) => {
+    //     console.log(e)
+    // }
+    const onSubmit = (data) => {
+        const messagePayload = {
+            to: data.numero,
+            message: `*Nome:* ${data.nome}
+             *Contacto:* ${data.numero}
+             *E-mail:* ${data.email}
+             *Descricao:* ${data.descricao}`,
+        };
+        fetch('https://Amilcarmhula.github.io/jm-tecnologias:3010/api/send-message', {
+            // fetch('http://localhost:3010/api/send-message', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(messagePayload),
+        })
+            .then((response) => response.json())
+            .then((result) => {
+                if (result.success) {
+                    console.log(`Mensagem enviada com sucesso: ${result.sid}`);
+                } else {
+                    console.error(`Erro ao enviar a mensagem: ${result.error}`);
+                }
+            })
+            .catch((error) => console.error(`Falha na solicitação: ${error.message}`));
+            // console.log(data)
+        };
+    
     return (
         <div className="section-wrapper" id="contact">
             <h1> Vamos Conversar</h1>
