@@ -16,8 +16,8 @@ function ContactoPage() {
              *E-mail:* ${data.email}
              *Descricao:* ${data.descricao}`,
         };
-        // fetch('https://Amilcarmhula.github.io/jm-tecnologias:3010/api/send-message', {
-            fetch('https://localhost:3010/api/send-message', {
+        fetch('https://Amilcarmhula.github.io/jm-tecnologias:3010/api/send-message', {
+            // fetch('https://localhost:3010/api/send-message', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(messagePayload),
