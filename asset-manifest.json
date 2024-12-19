@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jm-tecnologias/static/css/main.fef8d86d.css",
-    "main.js": "/jm-tecnologias/static/js/main.abaa1da1.js",
+    "main.css": "/jm-tecnologias/static/css/main.71b398c3.css",
+    "main.js": "/jm-tecnologias/static/js/main.e65e9938.js",
     "static/js/453.5f0c68fd.chunk.js": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js",
     "static/media/1.jpg": "/jm-tecnologias/static/media/1.4cec2a11caa3aeb1cc21.jpg",
     "index.html": "/jm-tecnologias/index.html",
-    "main.fef8d86d.css.map": "/jm-tecnologias/static/css/main.fef8d86d.css.map",
-    "main.abaa1da1.js.map": "/jm-tecnologias/static/js/main.abaa1da1.js.map",
+    "main.71b398c3.css.map": "/jm-tecnologias/static/css/main.71b398c3.css.map",
+    "main.e65e9938.js.map": "/jm-tecnologias/static/js/main.e65e9938.js.map",
     "453.5f0c68fd.chunk.js.map": "/jm-tecnologias/static/js/453.5f0c68fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fef8d86d.css",
-    "static/js/main.abaa1da1.js"
+    "static/css/main.71b398c3.css",
+    "static/js/main.e65e9938.js"
   ]
 }
