@@ -5,34 +5,7 @@ import "./contactoStyle.css"
 function ContactoPage() {
     const { register, handleSubmit } = useForm()
 
-    // const onSubmit = (e) => {
-    //     console.log(e)
-    // }
     const onSubmit = (data) => {
-        // const messagePayload = {
-        //     message: `*Nome:* ${data.nome}
-        //      *Contacto:* ${data.numero}
-        //      *E-mail:* ${data.email}
-        //      *Descricao:* ${data.descricao}`,
-        // };
-        // fetch('http://localhost:3010/send-message', {
-        //     // fetch('https://jm-api-vi9j.onrender.com/send-message', {
-        //     method: 'POST',
-        //     headers: { 'Content-Type': 'application/json' },
-        //     body: JSON.stringify(data),
-        // })
-        //     .then((response) => response.json())
-        //     .then((result) => {
-        //         if (result.success) {
-        //             console.log(`Mensagem enviada com sucesso: ${result.sid}`);
-        //         } else {
-
-        //             console.error(`Erro ao enviar a mensagem: ${result.error}`);
-        //         }
-        //     })
-        //     .catch((error) => console.error(`Falha na solicitação: ${error.message}`));
-        // console.log(data)
-
         //   fetch('http://localhost:3010/send-message', {
         fetch('https://jm-api-vi9j.onrender.com/send-message', {
             method: "POST",
