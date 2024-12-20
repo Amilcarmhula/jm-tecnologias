@@ -38,7 +38,7 @@ function ContactoPage() {
                     <h3 className="info-sub-title">Preencha o formulario com seus dados de contacto e de descricao das suas duvidas e nossa equipe entrara em contacto dentro de 24 horas</h3>
                     <ul className="info-details">
                         <li>
-                            <i className="fa-solid fa-phone"></i>
+                            <i className="fa-solid fa-phone fa-shake"></i>
                             <span>Telefone: </span> <a href="tel:+258847100793">+258 84 710 0793</a>
                         </li>
                         <li>
