@@ -4,7 +4,7 @@ function ServicePage() {
     return (
         <div className='section'>
             <div className="title">
-                <h1>Nossos Servicos</h1>
+                <h1>Nossos Serviços</h1>
             </div>
             <div className='sub-title'>
                 <p>Bem-vindo à JM-tecnologias, onde a segurança, a tecnologia e a inovação convergem para criar soluções abrangentes e personalizadas.</p>

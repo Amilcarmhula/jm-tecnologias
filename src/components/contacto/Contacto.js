@@ -34,7 +34,7 @@ function ContactoPage() {
             <p>Entre em contato conosco hoje para agendar uma consulta ou solicitar assistência emergencial. estamos ansiosos para atender e superar suas expectativas com serviços de tecnologia rápidos, confiáveis ​​e profissionais.</p>
             <div className="box-wrapper">
                 <div className="info-wrap">
-                    <h2 className="info-title" >Informacao de contacto</h2>
+                    <h2 className="info-title" >Informações de contacto</h2>
                     <h3 className="info-sub-title">Preencha o formulario com seus dados de contacto e de descricao das suas duvidas e nossa equipe entrara em contacto dentro de 24 horas</h3>
                     <ul className="info-details">
                         <li>
@@ -42,16 +42,16 @@ function ContactoPage() {
                             <span>Telefone: </span> <a href="tel:+258847100793">+258 84 710 0793</a>
                         </li>
                         <li>
-                            <i className="fa-brands fa-whatsapp"></i>
+                            <i className="fa-brands fa-whatsapp fa-bounce"></i>
                             <span>WhatsApp: </span> <a href="https://wa.me/258847100793?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços!" target="_blank">+258 84 710 0793</a>
                         </li>
                         <li>
-                            <i className="fa-solid fa-at"></i>
+                            <i className="fa-solid fa-at fa-spin"></i>
                             <span>E-mail: </span> <a href="mailto:info@jm-tecnologias.co.mz">info@jm-tecnologias.co.mz</a>
                         </li>
 
                         <li>
-                            <i className="fa-solid fa-globe"></i>
+                            <i className="fa-solid fa-globe fa-flip"></i>
                             <span>Website: </span> <a href="https://www.jm-tecnologias.co.mz">www.jm-tecnologias.co.mz</a>
                         </li>
                     </ul>
