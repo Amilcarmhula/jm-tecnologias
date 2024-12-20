@@ -10,6 +10,13 @@ function EquipePage() {
     return (
         <>
             <div className='container'>
+                <div className="title">
+                    <h1>Nossa Equipe</h1>
+                </div>
+                <div className='sub-title'>
+                    <p>Num ambiente dinâmico e inovador, a equipe da JM-Tecnologias está empenhada em moldar o futuro da tecnologia. Nossa missão vai além de simplesmente fornecer soluções tecnológicas. Estamos comprometidos em criar um impacto positivo, assegurando que cada interação digital seja segura e confiável.
+                        </p>
+                </div>
                 <div className="card-list swiper-wrapper">
 
                     <Swiper

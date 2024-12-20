@@ -9,7 +9,7 @@
     display: block;
     background-color: #000;
     height: 5px;
-    width: 200px;
+    width: 160px;
     margin: auto;
 }
 
@@ -97,6 +97,7 @@
     .sub-title p {
         font-size: 12px;
         padding: 0px 40px;
+        text-align: justify;
     }
     .card .icon {
         font-size: 20px;
