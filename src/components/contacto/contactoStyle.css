@@ -1,10 +1,19 @@
 .section-wrapper {
-    padding: 20px;
+    /* padding: 20px; */
     /* height: 100vh; */
 }
 
 .section-wrapper h1{
     text-align: center;
+    padding: 40px;
+}
+.section-wrapper h1::after {
+    content: "";
+    display: block;
+    background-color: #000;
+    height: 5px;
+    width: 200px;
+    margin: auto;
 }
 .section-wrapper p{
     font-size: 18px;
@@ -161,21 +170,28 @@ a {
     .section-wrapper h1{
         text-align: center;
         font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .section-wrapper h1::after {
+        width: 150px;
     }
     .section-wrapper p{
         font-size: 12px;
         text-align: justify;
-        margin: 20px 20px 0px 20px;
+        margin: 0px 40px 0px 40px;
     }
     .box-wrapper {
         flex-direction: column;
         padding: 0px 0px;
         align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
     }
-
     .info-wrap {
         border-radius: 30px 30px 0px 0px;
         width: 90%;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
 
@@ -213,6 +229,8 @@ a {
     .form-wrap {
         border-radius: 0px 0px 30px 30px;
         width: 90%;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .form-title {
