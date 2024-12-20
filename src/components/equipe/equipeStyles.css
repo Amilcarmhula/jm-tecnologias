@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     /* min-height: 100vh; */
-    padding: 20px;
+    padding: 40px;
     /* background: #060e54; */
     /* background: url('../../assets/team-cover3.jpg') no-repeat center; */
     background:  rgb(68, 68, 205);
@@ -16,10 +16,9 @@
 
 .card-list .card-item {
     color:#fff;
-    /* user-select: none; */
-    width: 350px;
-    padding: 30px;
-    margin: 40px;
+    user-select: none;
+    /* width: 350px; */
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,12 +44,12 @@
     text-align: center;
     font-size: 14px;
     font-weight: 500;
-    margin: 14px ;
+    margin: 14px;
 }
 
 .card-list .card-item .message-button
 {
-    font-size: 1rem;
+    font-size: 14px;
     padding: 5px 15px;
     color: #030728;
     border-radius: 6px;
