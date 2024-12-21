@@ -65,6 +65,7 @@
     }
 
     .left-col h1 {
+        padding-top: 10px;
         padding-bottom: 10px;
         font-size: 26px;
         text-align: end;
@@ -72,8 +73,9 @@
 
     .left-col p {
         padding-bottom: 20px;
-        padding: 15px 60px 40px 60px;
+        padding: 15px 20px 20px 20px;
         text-align: justify;
+        font-size: 12px;
     }
 
     .left-col a {
